@@ -1,8 +1,11 @@
 // Crear estudiantes de ejemplo
 const estudiantes = [
-    new Estudiante('Juan Pérez', 'A00123456'),
+    {nombre:'Juan Pérez',matrícula:'A00123456',procesoAcadémico:'Apoyo Académico'},
+    {nombre:'Luis Araque', matrícula:'A00325313', procesoAcadémico:'Apoyo Integral'},
     // ... agregar más estudiantes ...
 ];
+
+console.log(estudiantes)
 
 // Función para renderizar la tabla
 function renderizarTabla() {
