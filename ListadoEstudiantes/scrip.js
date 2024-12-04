@@ -17,7 +17,7 @@ function renderizarTabla() {
         fila.innerHTML = `
             <td>${estudiante.nombre}</td>
             <td>${estudiante.matricula}</td>
-            <td>${estudiante.procesosAcademicos.map(proceso => proceso.nombre).join(', ')}</td>
+            <td>${estudiante.procesosAcademicos}</td>
         `;
         tabla.appendChild(fila);
     });
