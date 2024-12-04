@@ -1,7 +1,7 @@
 // Crear estudiantes de ejemplo
 const estudiantes = [
-    {nombre:'Juan Pérez',matrícula:'A00123456',procesoAcadémico:'Apoyo Académico'},
-    {nombre:'Luis Araque', matrícula:'A00325313', procesoAcadémico:'Apoyo Integral'},
+    {nombre:'Juan Pérez',matrícula:'A00123456',procesoAcademico:'Apoyo Académico'},
+    {nombre:'Luis Araque', matrícula:'A00325313', procesoAcademico:'Apoyo Integral'},
     // ... agregar más estudiantes ...
 ];
 
@@ -17,7 +17,7 @@ function renderizarTabla() {
         fila.innerHTML = `
             <td>${estudiante.nombre}</td>
             <td>${estudiante.matricula}</td>
-            <td>${estudiante.procesosAcademicos}</td>
+            <td>${estudiante.procesosAcademico}</td>
         `;
         tabla.appendChild(fila);
     });
